@@ -24,7 +24,7 @@ public class EmployeeService {
 		Project caas = new Project("CAAS", "Cust Auto *****","FedEX Customer Accounts");
 		Project cicd = new Project("CI/CD", "Continuous Integration/Continuous Delivery","Making FAST APPS CI/CD enabled");
 
-		Employee naveen = new Employee("naveenv", "Naveen",
+		Employee naveen = new Employee("naveen", "Naveen",
 				"Sr Programmer Analyst", new ArrayList<>(Arrays
 						.asList(eTNMS, chan, cicd)));
 		

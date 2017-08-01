@@ -1,11 +1,11 @@
 node {
    def mvnHome
    stage('Preparation') { // for display purposes
-      // Get some code from a GitHub repository
-      //git 'https://github.com/naveen1223/pipeline-demo.git'
-      git config --global http.proxy http://vnaveengupta@gmail.com:codebase1@internet.proxy.fedex.com:3128
+   	  git config --global http.proxy http://vnaveengupta@gmail.com:codebase1@internet.proxy.fedex.com:3128
       git config --global http.sslVerify false
-      git 'C:/Users/5230906/Pipeline/Employee/.git'
+      // Get some code from a GitHub repository
+      git 'https://github.com/naveen1223/pipeline-demo.git'
+      //git 'C:/Users/5230906/Pipeline/Employee/.git'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           

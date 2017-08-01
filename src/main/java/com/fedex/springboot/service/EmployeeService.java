@@ -24,15 +24,15 @@ public class EmployeeService {
 		Project caas = new Project("CAAS", "Cust Auto *****","FedEX Customer Accounts");
 		Project cicd = new Project("CI/CD", "Continuous Integration/Continuous Delivery","Making FAST APPS CI/CD enabled");
 
-		Employee naveen = new Employee("111", "Naveen Vadakattu",
+		Employee naveen = new Employee("naveen", "Naveen",
 				"Sr Programmer Analyst", new ArrayList<>(Arrays
 						.asList(eTNMS, chan, cicd)));
 		
-		Employee robin = new Employee("222", "Robin Fluke",
+		Employee robin = new Employee("robin", "Robin",
 				"Project/Process Advisor", new ArrayList<>(Arrays
 						.asList(eTNMS, chan, ctns)));
 
-		Employee richard = new Employee("333", "Richard Bohannon",
+		Employee richard = new Employee("richard", "Richard",
 				"Bus Appl Advisor", new ArrayList<>(Arrays
 						.asList(chan, caas, ctns)));
 
